@@ -1,0 +1,65 @@
+body {
+	font-family:	Bitstream Vera Sans,Tahoma,Arial,Helvetica;
+	font-size:		11pt;
+	background-image: url("../img/bg.png");
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-color: white;
+}
+
+#container {
+	width:		100%;
+	height:		100%;
+}
+
+#frame {
+	width:		90%;
+	text-align: left;
+}
+
+#header {
+	background-color: white;
+	border: 1px solid gray;
+}
+
+#content {
+	margin-top:		5px;
+	padding:		4px;
+	border:			1px solid gray;
+	background-color: white;
+}
+
+
+#footer {
+	margin-top:		5px;
+	padding:		2px;
+	border: 		1px solid gray;
+	text-align: 	right;
+	background-color: white;
+}
+
+h1 {
+	font-size: 		14pt;
+	font-weight:	bold;
+	font-variant: 	small-caps;
+	border-bottom: 	1px solid silver;
+}
+
+dt {
+	font-style: 	italic;
+	font-weight: 	bold;
+}
+
+dd {
+	margin-top:		5px;
+	margin-bottom:	5px;
+}
+
+h2 {
+	font-size: 		11pt;
+	font-variant: 	small-caps;
+}
+
+.section {
+	margin-bottom:	30px;
+}

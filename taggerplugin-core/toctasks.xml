@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Tasks" link_to="toc.xml#tasks">
+	<topic label="Introduction"  href="help/tasks/index.html" />
+	<topic label="Viewing Workspace Tags"  href="help/tasks/viewtags.html" />
+	<topic label="View Resource Tag Associations"  href="help/tasks/viewtagassocs.html" />
+	<topic label="Adding a New Tag"  href="help/tasks/addtag.html" />
+	<topic label="Editing a Tag"  href="help/tasks/edittag.html" />
+	<topic label="Deleting a Tag"  href="help/tasks/removetag.html" />
+	<topic label="Adding Tag Associations"  href="help/tasks/addassoc.html" />
+	<topic label="Removing Tag Associations"  href="help/tasks/clearassoc.html" />
+	<topic label="Creating a Working Set From Tags"  href="help/tasks/createworkingset.html" />
+	<topic label="Finding Tagged Resources"  href="help/tasks/search.html" />
+	<topic label="Exporting Tags"  href="help/tasks/exporttags.html" />
+	<topic label="Importing Tags"  href="help/tasks/importtags.html" />
+</toc>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.viewActions">
+      <viewContribution
+            id="net.sourceforge.taggerplugin.jdt.PackageViewActions"
+            targetID="org.eclipse.jdt.ui.PackageExplorer">
+         <action
+               class="net.sourceforge.taggerplugin.jdt.action.FilterPackageUsingTagsAction"
+               icon="icons/tagger_filter.gif"
+               id="net.sourceforge.taggerplugin.action.FilterUsingTagsAction_Package"
+               label="%tagger.jdt.action.FilterTags.label"
+               menubarPath="additions"
+               style="push"
+               toolbarPath="additions"
+               tooltip="%tagger.jdt.action.FilterTags.tooltip"/>
+      </viewContribution>
+   </extension>
+
+</plugin>

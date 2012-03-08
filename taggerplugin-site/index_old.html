@@ -1,0 +1,134 @@
+<html>
+	<head>
+		<title>Eclipse Resource Tagger Plug-in</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+		<link rel="stylesheet" type="text/css" href="rc/css/common.css" />
+	</head>
+	<body>
+		<div id="container" align="center">
+			<div id="frame">
+				<div id="header"><a href="index.html"><img src="rc/img/site_logo.png" border="0"/></a></div>
+				<div id="content">
+					<img src="rc/img/navandview.gif" style="float:right;border:1px solid silver;margin: 2px;" />
+
+					<div class="section">
+						<h1>What is it?</h1>
+
+						<p>The Resource Tagger Plug-in adds tagging
+						functionality to <a href="http://eclipse.org">Eclipse</a> such that resources may be tagged similar to the content tagging
+						in <a href="http://del.icio.us">Del.icio.us</a> and <a href="http://gmail.com">Gmail</a>. The tagged resources may then be
+						managed, searched, filtered, or otherwise operated on by their tag associations.</p>
+
+						<h2>Current Version</h2>
+
+						<p>The current version is 1.2.1 (see <a href="changelog.html">changelog</a> for details, or just go <a href="#getit">get it</a>).</p>
+					</div>
+
+					<div class="section">
+						<h1>What does it do?</h1>
+
+						<h2>Current Features</h2>
+
+						<dl>
+							<dt>Resource Tagging</dt>
+							<dd>Any Eclipse resource can have one or more tags associated with it. The goal of these tags is to provide an alternate means
+								of grouping and working with resources.</dd>
+
+							<dt>Tag Management</dt>
+							<dd>The tag set available to the workspace is managed through a tag view. Tag can be added, edited and removed using this view.</dd>
+
+							<dt>Search by Tag Association</dt>
+							<dd>Tagged files can be found via their tag associations. Currently the search is limited to either requiring all tags be associated with
+								the resource or any of the specified tags.</dd>
+
+							<dt>Create Working Set From Tags</dt>
+							<dd>From the Tag Manager View, a working set can be created from all resources tagged with specified tags.</dd>
+
+							<dt>Create Working Set From Search Results</dt>
+							<dd>From any search result view, the user can create a working set of selected resources.</dd>
+
+							<dt>Open All Search Results Action</dt>
+							<dd>From any search results view, the user can open all selected search result resources in their editors.</dd>
+
+							<dt>Filter Resource Views By Tag Associations</dt>
+							<dd>A resource view can be filtered by specified tag associations (the JDT Package View is now also filterable).</dd>
+							
+							<dt>Import/Export</dt>
+							<dd>Tags and Tag Association can be exported from one workspace and imported into another.</dd>
+						</dl>
+
+						<h2>Planned Features</h2>
+						<p>Currently there are a number of interesting features on the drawing board. If you are interested in what's to come, 
+						you should check out the <a href="http://sourceforge.net/tracker/?group_id=182210&atid=900301">Feature Request</a> page; 
+						you are encouraged to submit your own feature requests if there is something you would like to see in an upcoming release.</p>
+						
+					</div>
+
+					<div class="section">
+						<h1>Can I see it?</h1>
+
+						<p>Screen shots of the plug-in can be found in the
+						<a href="http://sourceforge.net/project/screenshots.php?group_id=182210">Screenshot page</a> of the
+						<a href="http://sourceforge.net/projects/taggerplugin">Sourceforge Project site</a>.</p>
+					</div>
+
+					<div class="section">
+						<h1><a name="getit">How do I get it?</a></h1>
+
+						<p>You can get the Resource Tagger Plug-in as a jar, through the update site or by checking out the source code from the
+						subversion repository.</p>
+
+						<h2>Plug-in Jar</h2>
+
+						<p>Downloads are available through the SourceForge download system, which can be found at the following address:
+						<a href="http://sourceforge.net/project/showfiles.php?group_id=182210">http://sourceforge.net/project/showfiles.php?group_id=182210</a></p>
+
+						<h2>Update Site</h2>
+
+						<p>The update site is online and can be found at the following address:
+						<a href="http://taggerplugin.sourceforge.net/update">http://taggerplugin.sourceforge.net/update</a></p>
+
+						<h2>Source Code</h2>
+
+						<p>The source code is available in the subversion repository at
+							<a href="http://taggerplugin.svn.sourceforge.net/viewvc/taggerplugin/">http://taggerplugin.svn.sourceforge.net/viewvc/taggerplugin/</a>.
+							Be sure to pull the source from the correct branch. The trunk is always the current development version.</p>
+
+						<h2>License</h2>
+						<p>This plug-in is an OpenSource project available under the <a href="http://www.eclipse.org/legal/epl-v10.html">Eclipse Public License</a> (v1.0).</p>
+					</div>
+
+					<div class="section">
+						<h1>How do I install it?</h1>
+
+						<p>Installation is easy and there are two ways to do it. You can either download the jar file and drop it into your
+						Eclipse plugins directory or you can add the update site (http://taggerplugin.sourceforge.net/update) to your
+						Eclipse update configuration. I recommend the update site so that you always have the most current version.</p>
+
+						<p>The Resource Tagger Plug-in requires Java 1.5 and Eclipse 3.2 (or later).</p>
+					</div>
+
+					<div class="section">
+						<h1>How do I use it?</h1>
+
+						<p>Usage documentation is provided as part of the plug-in. A "Resource Tagging" entry is added to the Eclipse help
+						system.</p>
+					</div>
+
+					<div class="section">
+						<h1>Either it's broken, or I need help, where can I find it?</h1>
+						<p>The <a href="http://sourceforge.net/projects/taggerplugin">SourceForge project</a> site has forums,
+						<a href="http://sourceforge.net/tracker/?group_id=182210">bug/feature request/suppport tracking</a> and a
+						<a href="http://sourceforge.net/mail/?group_id=182210">mailing list</a> that you are free to use. These are the
+						preferred means of getting help. If all else fails, you can email me, but I am the only active developer so going through the support
+						systems goes to me anyway. I try to respond and/or handle issues as soon as possible.</p>
+					</div>
+
+				</div>
+				<div id="footer">
+					<a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=182210&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo" /></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

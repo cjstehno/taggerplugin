@@ -1,0 +1,41 @@
+Version 1.2.1
+
+	*	Fixed: [BUG-1643992] Tag XML Export not working
+	*	Fixed: [BUG-1643993] Tag Association Import Issues
+	*	Fixed: [BUG-1642724] null pointer exception when using right-click add new tag
+	*	Fixed: [BUG-1642725] right-click add tag is throwing null pointer
+	*	Fixed: [BUG-1642745] externalization error in package manager
+	*	Fixed: [BUG-1642720] Right-click Menu is showing incorrect strings
+	*	added some unit testing and started drafting test plan
+
+Version 1.2.0
+
+	*	Fixed: [BUG-1630810] Update site does not register as update only as new
+	*	[FR-1616822] import/export tag associations
+	*	refactored the tag association io
+	*	added new context menu action to create a new tag and associate it at the same time
+	*	externalized meta data strings in configuration files
+	*	[FR-1630811] Add Tag Filtering support to JDT Package View
+
+Version 1.1.0
+
+	*	Fixed: [BUG-1624293] Plugin jar deployment bug
+	*	added documentation for new functionality
+	*	added stylesheet to documentation
+	*	Fixed: [BUG-1617191] site bad in IE
+	*	simplified web site and removed dojo
+	*	cleaned up string externalization
+	*	cleaned up javadocs.
+	*	added new icons and fixed name of logo icon.
+	*	[FR-1616814] Open all search results action added to all search results pages
+	*	[FR-1616812] ability to create working set from any search results page
+	*	added resource view filtering based on tags to Navigator and Project Explorer
+	*	Fixed: [BUG-1620496] working set success message not populated with set name
+
+Version 1.0.1
+
+	*	Fixed: [BUG-1617895] Closed project on workspace causes errors
+
+Version 1.0.0
+
+	*	Initial release

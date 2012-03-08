@@ -1,0 +1,40 @@
+----- v1.3.0 -----
+-	allow specification of tagset file location
+	-	refactor tagset file to store association resource path
+	-	ensure refresh of markers on load
+	-	onchange: reload markers?
+	-	need to create default file at start
+	
+-	add tag associations to tagset view
+-	export tagged files (flatten or maintain)
+!	need icons license
+-	revamp website
+
+----- v1.4.0 -----
+-	add internal merge and conflict resolution for externally modified tagset file
+-	work on documentation
+-	add any/all options to tag-->working set (dynamic)
+-	add options to view filtering
+-	add more options to tag search
+
+----- ???? -----
+-	add "show in" to tagset view
+-	add "open in editor" to tagset view
+-	allow other operations in tagset view
+-	tag quick search
+-	tag open files
+-	copy/paste tags
+-	drag/drop tags
+
+
+
+
+----- Other -----
+-	create working set from search results
+	-	export working set files
+	-	add selected files to working set
+-	open all selected search results in editor
+-	properties
+
+-	break out frills plugins into separate project
+-	add quick search (like CTRL-O) where type in tag name to get list of tags (selection opens all tagged)

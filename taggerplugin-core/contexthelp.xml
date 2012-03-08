@@ -1,0 +1,10 @@
+<contexts>
+	<context id="net.sourceforge.taggerplugin.help.DeleteTagAction" title="Delete Tag">
+		<description>Deletes the selected tag.</description>
+		<topic href="help/reference/maintopic.html" label="Delete Tag"/>
+	</context>
+	<context id="net.sourceforge.taggerplugin.help.AddTagAssociation" title="Add Tag Association">
+		<description>Allows a tag to be associated with the selected resource(s).</description>
+		<topic href="help/reference/maintopic.html" label="Add Tag Association"/>
+	</context>
+</contexts>

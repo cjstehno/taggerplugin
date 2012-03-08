@@ -1,0 +1,88 @@
+============================================================
+               Eclipse Resource Tagger Plug-in
+                       QA Test Plan
+============================================================
+
+-	Export the plugins
+-	Install the plugins in clean Eclipse application (not the development installation)
+-	delete tag and tag association files from workspace
+
+-	should export the update site and use update manager to install the plugin
+
+------------------------------------------------------------
+                           Tags
+------------------------------------------------------------
+
+-	open the "Tags" view
+-	create a new tag
+	-	click on the "Add Tag" button 
+		-	you should see the tag dialog with no data
+	-	enter a title and description in the proper fields
+	-	click the OK button
+		-	a new tag with the data you entered should appear in the Tags View
+-	edit a tag
+	-	select a tag from the view
+	-	click on the "Edit Tag" button
+		-	you should see the tag dialog populated with the tag data
+	-	click Cancel
+		-	the dialog should close and the tag should be unchanged in the view
+	-	select the tag and edit it again
+	-	modify the title and description data
+	-	click OK
+		-	the dialog should close and the view should have the new data for the tag
+-	remove a tag
+	-	create a tag with title and description
+	-	select the tag in the view
+	-	click the "Remove Tag" button
+		-	you should be asked to confirm the removal
+	-	click Cancel
+		-	the tag should remain in the view
+	-	select the tag and click the "Remove Tag" button
+	-	click Ok on the confirmation dialog
+		-	the tag should be removed from the view
+
+
+create working set
+		
+------------------------------------------------------------
+                      Tag Associations
+------------------------------------------------------------
+
+
+add/remove/create/clear associations
+
+------------------------------------------------------------
+                         Misc Views
+------------------------------------------------------------
+
+properties
+label
+view filtering
+jdt view filtering
+preferences
+
+------------------------------------------------------------
+                          Search
+------------------------------------------------------------
+
+search
+create working set
+open all selected
+
+------------------------------------------------------------
+                          Wizards
+------------------------------------------------------------
+
+import/export tags
+import/export tag associations
+
+
+------------------------------------------------------------
+                           Misc
+------------------------------------------------------------
+
+verify externalized strings
+
+documentation
+
+!!! most of this should be repeated after doing tag/association import
